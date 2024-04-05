@@ -15,4 +15,4 @@ app.include_router(auth_router, prefix="/auth", tags=["Authorization"])
 app.include_router(plates_router, prefix="/plates", tags=["Plates"])
 app.include_router(orders_router, prefix="/orders", tags=["Orders"])
 
-app.title = "Restaurants API"
+app.title = "Restaurant API"
